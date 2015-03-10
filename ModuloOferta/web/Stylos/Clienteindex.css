@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slideshow {
+	margin:0 185px;
+	width:630px;
+	height:263px;
+	background:transparent url(../img/fondob.jpg);
+	background-position:center;
+	position:relative;
+}
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:560px;
+  height:263px;
+  overflow:auto; /* allow scrollbar */
+  position:relative;
+}
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:540px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  height:263px;
+}
+
+/** 
+ * Slideshow controls style rules.
+ */
+.control {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:0;
+  left:0;
+  background:transparent url(../img/control_left.jpg) no-repeat 0 0;
+}
+#rightControl {
+  top:0;
+  right:0;
+  background:transparent url(../img/control_right.jpg) no-repeat 0 0;
+}
+
+/** 
+ * Style rules for Demo page
+ */
+* {
+  margin:0;
+  padding:0;
+  font:normal 11px Verdana, Geneva, sans-serif;
+  color:#ccc;
+}
+a {
+  color: #fff;
+  font-weight:bold;
+  text-decoration:none;
+  font-size:15px;
+}
+a:hover {
+  text-decoration:underline;
+}
+#pageContainer {
+  margin:0 auto;
+  width:810px;
+  background: url(../index/Banner/Grandes/tomato.JPG);
+  background-size:contain;
+}
+.slide h2, .slide p {
+  margin:15px;
+  font-size:15px;
+  
+}
+.slide h2 {
+  font:italic 24px Georgia, "Times New Roman", Times, serif;
+  color:#ccc;
+  letter-spacing:-1px;
+  font-size:30px;
+}
+.slide img {
+  float:right;
+  margin:0 15px;
+}
+#footer {
+  height:100px;
+}
+#footer p {
+  margin:30px auto 0 auto;
+  display:block;
+  width:560px;
+  height:40px;
+}
+#info{
+	width:219px;
+	height:568px;
+	float:left;
+	background:url(../img/publicidad.jpg);
+}
+#oferta{
+	width:600px;
+	height:568px;
+	float:right;
+	background:#FFF;
+}
+#ofertas{
+	margin:0px 60px;
+	width:600px;
+	height:568px;
+}
+#ofertas p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+
+	color:#006600;
+}
+#ofertas a{
+	color:#003300;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+h1{
+	font-size:30px;
+	color:#C00;
+	font-family:Arial, Helvetica, sans-serif;
+}

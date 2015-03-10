@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Pantilla produtor.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="estilos" -->
+<link type="text/css" rel="stylesheet" href="Templates/Productor.css"/>
+<link type="text/css" rel="stylesheet" href="Stylos/Productorpublicar.css"/> 
+<!-- InstanceEndEditable -->
+<link type="text/css" rel="stylesheet" href="Productor.css"/>
+<link rel="shortcut icon" href="img/favicon.ico">
+
+<title>Farmers Market</title>
+</head>
+<body>
+<div class="Banner"></div>
+<div class="Menu">
+   <div class="Usuarios">
+    <img src="img/ICONOPROD.gif" width="60px" height="70px" id="usuarioimg"/></div>
+     <p id="usuario"> Productor <br> En linea</br></p>
+<div class="formUsuario">   
+  <form action="" method="get" name="Buscar" id="formbuscar">
+   <input name="Buscar" type="text" placeholder="Buscar" id="buscarr"/>
+   <input name="Buscar" type="submit" id="busqueda" />
+</form>
+</div>
+<div id="mimenu">
+<ul>
+  <li><img src="img/home.gif" width="25" height="25"/><a href="ProductorIndexla.html"> Inicio </a></li> 
+  <li><img src="img/publicaciones.gif" width="25" height="25"/><a href="Productorasociarp.html"> Asociar productos </a></li>
+  <li><img src="img/publicaciones.gif" width="25" height="25"/><a href="Productormisproductorasociados.html"> Mis productos</a></li>
+  <li><img src="img/publicaciones.gif" width="25" height="25"/><a href="Productorpublicarc.html"> Ofertar </a></li> 
+  <li><img src="img/misproductos.gif" width="25" height="25"/><a href="Productorpublicaciones.html"> Mis ofertas </a></li> 
+  <li><img src="img/mispedidos.gif" width="25" height="25"/><a href="Productor Pedidos.html"> Mis pedidos </a></li> 
+  <li><img src="img/perfil.gif" width="25" height="25"/><a href="Productordatos.html"> Perfil </a></li> 
+</ul>
+</div>
+</div>    
+<div id="MenuH">   
+<ul>
+<li><img src="img/cambio.gif" width="20" height="20"/><a href="">Español</a></li>
+<li><img src="img/cambio.gif" width="20" height="20"/><a href="">Ingles</a></li>
+<li><img src="img/cambio.gif" width="20" height="20"/><a href="">Cerrar Seción</a></li>
+</ul>
+</div>
+<div id="linea"></div>
+<div class="Contenido"><!-- InstanceBeginEditable name="contenid" -->
+<div id="migapan">
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="ProductorIndexla.html" title="Ir a la pagina de inicio" itemprop="url"> <span itemprop="title">Inicio > </span>
+<span itemprop="child" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="Productorpublicarc.html" title="Ofertar" itemprop="url"> <span itemprop="title">Ofertar</span></a></span>
+</div>
+<div id="izq">
+<form action="Productorpublicaciones.html" method="post" name="Publicar" id="Publicar">
+<h1>Publicar Producto</h1>
+<parrafo><em>Llene cada uno de los campos marcados con (*)</em></parrafo>
+<label for="idoferta">Cod Oferta</label>
+<input name="idoferta" id="idoferta" type="text" tabindex="1" title="Cod"placeholder="001"/>
+<label for="idpro">Cod Producto</label>
+<input name="idproducto" id="idpro" type="text" tabindex="2" title="Cod" placeholder="001"/>
+<label for="imagen">Imagen</label>
+<input name="imagen" id="imagen" type="image" tabindex="3" title="Imagen" disabled="disabled"/>
+<label for="Tipo">Producto*</label>
+<select name="Tipo" id="nombre" tabindex="4" title="Nombre" required="required">
+<option value="">Lechuga</option>
+<option value="">Brócoli</option>
+<option value="">Acelgas</option>
+<option value="">Repollo</option>
+<option value="">Espinacas</option>
+<option value="">Calabaza</option>
+<option value="">Habas</option>
+<option value="">Apio</option>
+<option value="">Coliflor</option>
+<option value="">Alcachofa</option>
+<option value="">Tomate</option>
+<option value="">Pimiento</option>
+<option value="">Berenjena</option>
+<option value="">Calabacín</option>
+<option value="">Pepino</option>
+<option value="">Aguacate</option>
+<option value="">Cebolla</option>
+<option value="">Ajo</option>
+<option value="">Nabo</option>
+<option value="">Ahuyama</option>
+</select>
+<label for="Categoria">Categoria*</label>
+<select name="Categoria" id="Categoria" tabindex="5" title="Categoria" required="required">
+<option value="">Hortalizas</option>
+<option value="">Tuberculos</option>
+<option value="">Frutas</option>
+</select>
+<label for="Presentacion">Presentación*</label>
+<select name="Presentacion" id="Presentacion" tabindex="6" title="Presentacion" required="required">
+<option value="">Atado</option>
+<option value="">Kilo</option>
+<option value="">Docena</option>
+<option value="">Bulto</option>
+<option value="">Libra</option>
+<option value="">Caja</option>
+<option value="">Canastilla</option>
+<option value="">Racimo</option>
+<option value="">Arroba</option>
+<option value="">Guacal</option>
+</select>
+<label for="Precio">Precio*</label>
+<input name"Precio" type="text" id="Precio" tabindex="7" required="required" placeholder="$7.000" disabled="disabled"/>
+<label for="fechai">Fecha Inicio*</label>
+<input type="date" name="fecha" id="fecha" tabindex="8" required="required" />
+<label for="Fechafin">Fecha Fin*</label>
+<input type="date" name="fechafin" id="fechafin" required="required" tabindex="9" /> 
+<label for="novedad">Novedad</label>
+<textarea name="novedad" cols="33" rows="3" required="required" id="novedad" tabindex="10"></textarea>
+<br/>
+<button name="enviar" id="enviar" type="submit">Enviar</button>
+</form>
+</div>
+<div id="derech">
+<h3>Cuadro descriptivo <br /> de cantidades</h3>
+<p><em>Las presentaciones en cero<br/>son calculadas de acuerdo al peso</em>
+<hr />
+<table id="descripcion">
+<tr>
+<th>Presentación</th>
+<th>Cantidad</th>
+<th>unidad</th>
+</tr> 
+<tr>
+<td>Atado</td>
+<td>0.00</td>
+<td>KILO</td>
+</tr>
+<tr>
+<td>Kilo</td>
+<td>1.00</td>
+<td>KILO</td>
+</tr>
+<tr>
+<td>Docena</td>
+<td>0.00</td>
+<td>KILO</td>
+</tr>
+<tr>
+<td>Bulto</td>
+<td>50.00</td>
+<td>KILO</td>
+</tr>
+<tr>
+<td>Libra</td>
+<td>2.00</td>
+<td>KILO</td>
+</tr>
+<tr>
+<td>Caja</td>
+<td>10.00</td>
+<td>KILO</td>
+</tr>
+<tr>
+<td>Canastilla</td>
+<td>25.00</td>
+<td>KILO</td>
+</tr>
+<tr>
+<td>Racimo</td>
+<td>0.00</td>
+<td>KILO</td>
+</tr>
+<tr>
+<td>Arroba</td>
+<td>12.50</td>
+<td>KILO</td>
+</tr>
+<tr>
+<td>Guacal</td>
+<td>30.00</td>
+<td>KILO</td>
+</tr>
+</table>
+<p><em>La cantidad de cada presentacion <br/>debe representarse en Kilos</em></p>
+</div>
+<!-- InstanceEndEditable --></div>
+</body>
+<!-- InstanceEnd --></html>

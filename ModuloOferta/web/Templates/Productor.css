@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:1024px;
+	height:1100px;
+	margin:auto;
+	background:#F4F4F4;
+	 
+}
+.Banner{
+	width:100%;
+	height:170px;
+	background: url(../img/banner.gif);
+}
+.Menu{
+	width:20%;
+	height:870px;
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+	float:left;
+	box-shadow:2px 2px #CCC;
+	z-index:3; 
+}
+.Usuarios{
+	width:100%;
+	height:12%;	
+	}
+#usuarioimg{
+	margin:10px;
+}
+#usuario{
+	margin:-80px 73px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#999;
+}
+.formUsuario{
+	margin:110px 0px;
+	width:100%;
+	height:50px;
+}
+#buscarr{
+	width:68%;
+	height:20px;
+	border-radius:3px;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+     box-shadow: none;
+     border-color: transparent!important;
+	 background:#F5F5F5;
+	 text-align:center;
+	 margin:0px 5px;
+}
+#busqueda{
+	width:23%;
+	height:50px;
+	background:url(../img/buscar.png);
+	background-size:cover;
+	border-bottom-style:none;
+	border-style:none;
+}
+#mimenu{
+	width:100%;
+	background:#EFEFEF;
+	margin:-109px 0px;
+	font-family:Verdana, Geneva, sans-serif;
+		
+}
+#mimenu a{
+	text-decoration:none;
+	color:#999;
+}
+#mimenu ul{
+	margin:0px;
+	padding:0px;
+}
+#mimenu li{
+	padding:10px;
+	list-style-type:none;
+	border-bottom:1px solid #B1B1B1;
+}
+#mimenu li:hover { 
+    background:#DDD;
+}
+#mimenu li ul {display:none;}
+
+#mimenu li ul:hover {
+	display:block;
+}
+#MenuH{
+	width:80%;
+	height:40px;
+	background:#FFF;
+	float:right;
+	font-family:Verdana, Geneva, sans-serif;
+	box-shadow: 0px 2px 2px 2px#999;
+	z-index:2;
+	font-size:13px;
+}
+#MenuH a{
+	text-decoration:none;
+	color:#999;
+}
+#MenuH li{
+	list-style:none;
+	float:right;
+	padding:0px 15px;
+}
+#linea{
+	width:100%;
+
+}
+.Contenido{
+	width:80%;
+	height:830px;
+	background:#FFFFFF;
+	float:right;
+	border-top-color:#006600;
+	z-index:1;
+}
+
+
+/* Menú vertical con subpestañas
+----------------------------------------------- */
+#menuvertical {
+text-align: center;
+width:100%;
+margin:-109px 0px;
+background:#EFEFEF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+}
+#menuvertical li{
+border-bottom:1px solid #B1B1B1;
+}
+#menuvertical ul { list-style-type: none; padding:0;}
+#menuvertical ul li.nivel1 {
+width: 100%; /* Ancho de las pestañas */
+}
+#menuvertical ul li.primera {
+border-top: solid 1px #FFF; /* Borde superior de la primera pestaña */
+}
+#menuvertical ul li {padding:0;}
+#menuvertical ul li a {
+display: block;
+text-decoration: none;
+color:#999; /* Color del texto */
+border-top: none;
+padding: 15px;
+position: relative;
+}
+#menuvertical ul li:hover {
+position: relative;
+color: #000; /* Color del texto al pasar el mouse */
+}
+#menuvertical ul li a:hover, #menuvertical ul li:hover a.nivel1 {
+background:#DDD; /* Color de fondo al pasar el mouse */
+color: #000;
+position: relative;
+}
+#menuvertical ul li a.nivel1 {
+display: block !important;
+display: none;
+position: relative;
+}
+#menuvertical ul li ul {
+display: none;
+}
+#menuvertical ul li a:hover ul, #menuvertical ul li:hover ul {
+display: block;
+position: absolute;
+left: 204px;
+top:-1px;
+}
+#menuvertical ul li ul li a {
+width: 160px;
+background:#EFEFEF; /* Color de fondo subpestañas */ 
+color:#999 /* Color del texto subpestañas */
+}
+#menuvertical ul li ul li a:hover {
+position: relative;
+background:#DDD; /* Color de fondo al pasar el mouse subpestañas */
+color: #000; /* Color del texto al pasar el mouse subpestañas */
+}
+#migapan a{
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	color:#060;
+	font-size:14px;
+	margin:0px 0px 0px 20px;
+}
+

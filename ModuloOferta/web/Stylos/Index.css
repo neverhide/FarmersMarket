@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:1024px;
+	height:1100px;
+	margin:auto;
+	background:#F4F4F4;
+}
+#cabecera{
+	width:100%;
+	height:100px;
+	background:#0C0;
+}
+#menu{
+	width:100%;
+	height:50px;
+	background:#3300FF;
+	background:#FFF;
+	float:right;
+	font-family:Verdana, Geneva, sans-serif;
+	z-index:2;
+	font-size:13px;
+}
+#menu a{
+	text-decoration:none;
+	color:#999;
+}
+#menu li{
+	list-style:none;
+	float:right;
+	padding:0px 15px;
+}
+#banner{
+	width:100%;
+	height:450px;
+
+}
+#linea{
+	width:100%;
+	height:40px;
+	background:#FFFF00;
+}
+#recuadro{
+	width:100%;
+	height:320px;
+	background:#90F;
+}
+#cuadro1{
+	width:500px;
+	height:320px;
+	background:#FF3300;
+	float:left;
+	margin:0px 6px;
+}
+#cuadro2{
+	width:500px;
+	height:320px;
+	background:#3F0;
+	float:right;
+	margin:0px 6px;
+}
+#pie{
+	width:100%;
+	height:50px;
+	background:#0FF;
+	clear:both;
+}
+

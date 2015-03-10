@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="estilos" --><!-- TemplateEndEditable -->
+<link type="text/css" rel="stylesheet" href="Productor.css"/>
+<link rel="shortcut icon" href="../img/favicon.ico">
+
+<title>Farmers Market</title>
+</head>
+<body>
+<div class="Banner"></div>
+<div class="Menu">
+   <div class="Usuarios">
+    <img src="../img/ICONOPROD.gif" width="60px" height="70px" id="usuarioimg"/></div>
+     <p id="usuario"> Productor <br> En linea</br></p>
+<div class="formUsuario">   
+  <form action="" method="get" name="Buscar" id="formbuscar">
+   <input name="Buscar" type="text" placeholder="Buscar" id="buscarr"/>
+   <input name="Buscar" type="submit" id="busqueda" />
+</form>
+</div>
+<div id="mimenu">
+<ul>
+  <li><img src="../img/home.gif" width="25" height="25"/><a href="../ProductorIndexla.html"> Inicio </a></li> 
+  <li><img src="../img/publicaciones.gif" width="25" height="25"/><a href="../Productorasociarp.html"> Asociar productos </a></li>
+  <li><img src="../img/publicaciones.gif" width="25" height="25"/><a href="../Productormisproductorasociados.html"> Mis productos</a></li>
+  <li><img src="../img/publicaciones.gif" width="25" height="25"/><a href="../Productorpublicarc.html"> Ofertar </a></li> 
+  <li><img src="../img/misproductos.gif" width="25" height="25"/><a href="../Productorpublicaciones.html"> Mis ofertas </a></li> 
+  <li><img src="../img/mispedidos.gif" width="25" height="25"/><a href="../Productor Pedidos.html"> Mis pedidos </a></li> 
+  <li><img src="../img/perfil.gif" width="25" height="25"/><a href="../Productordatos.html"> Perfil </a></li> 
+</ul>
+</div>
+</div>    
+<div id="MenuH">   
+<ul>
+<li><img src="../img/cambio.gif" width="20" height="20"/><a href="">Español</a></li>
+<li><img src="../img/cambio.gif" width="20" height="20"/><a href="">Ingles</a></li>
+<li><img src="../img/cambio.gif" width="20" height="20"/><a href="">Cerrar Seción</a></li>
+</ul>
+</div>
+<div id="linea"></div>
+<div class="Contenido"><!-- TemplateBeginEditable name="contenid" --><!-- TemplateEndEditable --></div>
+</body>
+</html>
